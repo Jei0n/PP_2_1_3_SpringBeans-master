@@ -13,7 +13,6 @@ public class AnimalsCage {
     private Animal animal;
     private Timer timer = new Timer();
 
-    @Bean
     public Timer getTimer() {
         return timer;
     }
